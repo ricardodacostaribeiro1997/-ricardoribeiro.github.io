@@ -12,6 +12,15 @@ header {
     padding: 20px;
 }
 
+header img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Keep width and height equal for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits well */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
+
 nav ul {
     list-style: none;
     padding: 0;
